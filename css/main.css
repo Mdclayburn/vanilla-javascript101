@@ -92,10 +92,11 @@ textarea {
   box-sizing:border-box;
 }
 body{
-  background-image: linear-gradient(120deg, #f6d365, #fda085);
+  background-image: url("../img/to-do.jpg");
+  background-size: cover;
   color: white;
   font-family: "Poppins", sans-serif;
-  min-height: 100vh;
+  min-height: 80vh;
 }
 header{
   font-size: 1.75rem;
@@ -105,6 +106,7 @@ header, form{
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 2em;
 }
 
 form input, form button{
@@ -114,14 +116,14 @@ form input, form button{
   background:#fff;
 }
 form button{
-  color: #fda085;
+  color: #00BFFF;
   background: #fff;
   cursor: pointer;
   transition: all 0.3s ease;
 }
 
 form button:hover{
-  background: #ff6f47;
+  background: #708090;
   color: white;
 }
 
@@ -152,7 +154,7 @@ form button:hover{
 }
 
 .trash-btn, .complete-btn{
-  background: #ff6f47;
+  background: red;
   color: white;
   border: none;
   padding: 1rem;
@@ -197,7 +199,7 @@ select{
 }
 
 select {
-  color: #ff6f47;
+  color: #00BFFF;
   width: 10rem;
   cursor: pointer;
   padding: 1rem;
@@ -206,7 +208,7 @@ select {
 .select::after{
   content: "\25BC";
   position:absolute;
-  background: #ff6f47;
+  background: #708090;
   top: 0;
   right: 0;
   padding: 1rem;
@@ -216,7 +218,7 @@ select {
 
 .select:hover::after{
   background: white;
-  color: #ff6f47;
+  color: #00BFFF;
 }
 
 /* ==========================================================================
