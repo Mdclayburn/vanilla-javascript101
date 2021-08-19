@@ -1,2 +1,1 @@
-# vanilla-javascript101
-# vanilla-javascript101
+# to-do-vanilla
